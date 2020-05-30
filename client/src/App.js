@@ -1,8 +1,12 @@
 import React from 'react';
+import TodoList from './todo/TodoList'
 
 function App() {
   return (
-    <div className='wrapper' />
+    <div className='wrapper'>
+      
+      <TodoList />
+	</div>
   );
 }
 
